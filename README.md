@@ -52,7 +52,7 @@ Na primeira execução, o `lazy.nvim` será clonado automaticamente e instalará
 
 | Plugin | Descrição | Arquivo(s) |
 | --- | --- | --- |
-| [`folke/snacks.nvim`](https://github.com/folke/snacks.nvim) | Explorador de arquivos lateral (`explorer`, `<leader>e`) e `picker` | [`lua/plugins/snacks.lua`](lua/plugins/snacks.lua) |
+| [`folke/snacks.nvim`](https://github.com/folke/snacks.nvim) | Explorador de arquivos lateral (`explorer`, `<leader>e`), `picker` e terminal integrado (`terminal`, `<C-/>`) | [`lua/plugins/snacks.lua`](lua/plugins/snacks.lua) |
 | [`nvim-telescope/telescope.nvim`](https://github.com/nvim-telescope/telescope.nvim) | Fuzzy finder para arquivos, grep, buffers, ajuda e diagnósticos (`<leader>f*`) | [`lua/plugins/telescope.lua`](lua/plugins/telescope.lua) |
 | [`nvim-telescope/telescope-fzf-native.nvim`](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Extensão nativa (`fzf` compilada via `make`) para acelerar buscas do Telescope | [`lua/plugins/telescope.lua`](lua/plugins/telescope.lua) |
 | [`folke/which-key.nvim`](https://github.com/folke/which-key.nvim) | Popup interativo de atalhos e definição de grupos (`<leader>c`, `f`, `g`, `r`, `t`, `gr`) | [`lua/plugins/which-key.lua`](lua/plugins/which-key.lua) |

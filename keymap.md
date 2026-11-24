@@ -54,6 +54,16 @@ Configurado em `lua/plugins/snacks.lua` com `replace_netrw = false` (mantém o `
 
 ---
 
+## Terminal (`snacks.terminal`)
+
+Configurado em `lua/plugins/snacks.lua` com terminal persistente em split inferior (esconder o terminal preserva a sessão do shell aberta).
+
+| Atalho | Modo | Ação |
+|---|---|---|
+| `<C-/>` (ou `<C-_>`) | Normal, Terminal | Alternar terminal (abrir/esconder, inclusive de dentro do terminal) |
+
+---
+
 ## Busca e Navegação (`telescope.nvim`)
 
 Configurado em `lua/plugins/telescope.lua` com aceleração via `telescope-fzf-native.nvim`.
@@ -209,7 +219,7 @@ Definidas em `init.lua` e `lua/config/options.lua`:
         ├── cpp-cmake.lua       # cmake-tools.nvim
         ├── lsp.lua             # nvim-lspconfig + lazydev.nvim
         ├── oneliners.lua       # vim-fugitive + nvim-highlight-colors
-        ├── snacks.lua          # snacks.nvim (explorer vertical)
+        ├── snacks.lua          # snacks.nvim (explorer vertical e terminal)
         ├── telescope.lua       # telescope.nvim + fzf-native
         ├── treesitter.lua      # nvim-treesitter (branch main)
         └── which-key.lua       # which-key.nvim e grupos de atalhos

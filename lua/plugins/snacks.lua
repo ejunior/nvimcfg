@@ -23,6 +23,9 @@ return {
           },
         },
       },
+      terminal = {
+        enabled = true,
+      },
     },
     keys = {
       {
@@ -31,6 +34,22 @@ return {
           Snacks.explorer()
         end,
         desc = "Alternar explorador de arquivos",
+      },
+      {
+        "<C-/>",
+        function()
+          Snacks.terminal.toggle()
+        end,
+        mode = { "n", "t" },
+        desc = "Alternar terminal",
+      },
+      {
+        "<C-_>",
+        function()
+          Snacks.terminal.toggle()
+        end,
+        mode = { "n", "t" },
+        desc = "which_key_ignore",
       },
     },
   },
