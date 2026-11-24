@@ -1,0 +1,2 @@
+ERR 2026-11-23T21:46:41.276 ?.33       vim_mktempdir:3361: tempdir root has invalid permissions (40777): /tmp/nvim.ejunior
+ERR 2026-11-23T21:49:10.438 ?.32       vim_mktempdir:3361: tempdir root has invalid permissions (40777): /tmp/nvim.ejunior
